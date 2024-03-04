@@ -1,0 +1,426 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #383b3e;
+    align-items: center;
+    position: relative;
+
+}
+
+
+@font-face {
+    font-family: '../fontsfiles/iconfont';
+    src: url('../fontsfiles/iconfont.woff2?t=1667915130686') format('woff2'),
+    url('../fontsfiles/iconfont.woff?t=1667915130686') format('woff'),
+    url('../fontsfiles/iconfont.ttf?t=1667915130686') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfon" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 顶部栏 */
+
+.nav {
+
+    width: 100%;
+    height: 50px;
+    background-color: #2b2e30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    box-shadow: 0 1px 8px 0 rgba(9, 8, 8, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.navbox {
+
+    width: 1260px;
+    height: 50px;
+    background-color: #2b2e30;
+}
+
+.detailnav {
+
+    width: 100%;
+    height: 50px;
+    background-color: #2b2e30;
+    display: flex;
+    position: relative;
+
+}
+
+.logo {
+
+    width: 160px;
+    height: 50px;
+    background-color: #2b2e30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.logo2{
+
+    width: 160px;
+    height: 50px;
+    background-color: #2b2e30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    right: 0px;
+    position: absolute;
+}
+
+.logo span {
+
+    color: aliceblue;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+/* 内容盒子 */
+
+.mainbox {
+
+    width: 1260px;
+    height: auto;
+    background-color: #383b3e;
+    margin-top: 50px;
+
+}
+
+/* 软件信息盒子 */
+.softinfobox {
+
+    width: 100%;
+    height: 200px;
+    background-color: #383b3e;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.2px solid rgb(132, 124, 124);
+
+}
+
+.softinfodiv {
+
+    width: 100%;
+    height: 150px;
+    background-color: #383b3e;
+    display: flex;
+
+}
+
+.infodiv {
+
+    width: 450px;
+    height: 150px;
+    display: flex;
+}
+
+.softinfoimg {
+
+    width: 170px;
+    height: 150px;
+
+}
+
+.softinfoimg img {
+
+    margin-left: 70px;
+
+
+}
+
+.softinfocontents {
+
+    width: 370px;
+    height: 150px;
+
+}
+
+h2 {
+
+    color: #fff;
+
+}
+
+.softinfocontents p {
+
+    margin-top: 10px;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.downloadbutton {
+
+    width: 180px;
+    height: 150px;
+    margin-left: 150px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.downloadbutton button {
+
+    width: 180px;
+    height: 40px;
+    background-color: rgb(37, 147, 238);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.downloadbutton button:hover{
+
+    background-color: #3DB2FF;
+    width: 185px;
+    height: 45px;
+
+
+}
+
+.logo3{
+
+    width: 150px;
+    height: 150px;
+    margin-left: 330px;
+}
+
+.logo3 img{
+    width: 150px;
+    height: 150px;
+}
+
+.logo3 img:hover{
+    width: 155px;
+    height: 155px;
+
+
+}
+
+/* 轮播图 */
+
+.softdetailimg {
+
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: #fff;
+
+}
+
+
+/* 软件概述 */
+.softintroduction {
+
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+}
+
+h3 {
+
+    color: #fff;
+    margin-top: 45px;
+    font-size: 24px;
+
+}
+
+#text{
+
+    color: #fff;
+    line-height: 30px;
+    font-size: 14px;
+
+
+}
+
+
+.softcomments {
+
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.txt1 {
+
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.txt1 p {
+
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+.softcomments {
+
+    width: 1260px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.commentsimg{
+
+    margin-left: 380px;
+
+}
+
+.commentsbar {
+
+    width: 1260px;
+    height: 100px;
+    display: flex;
+}
+
+.commentsnumber {
+
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+
+}
+
+.commentsgoodorbad{
+
+    width: 620px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.commentsgood{
+
+    width: 600px;
+    height: 10px;
+    background-color: #4c545c;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.commentsbad{
+
+    width: 600px;
+    height: 10px;
+    background-color: #4c545c;
+    margin-left: 10px;
+    border-radius: 20px;
+
+
+}
+
+.goodshow{
+
+    width: 300px;
+    height: 10px;
+    background-color: #3DB2FF;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.badshow{
+
+    width: 400px;
+    height: 10px;
+    background-color: #3DB2FF;
+    border-radius: 20px;
+
+
+}
+
+.commentsbutton {
+
+
+    width: 1000px;
+    height: 50px;
+    color: #fff;
+
+}
+
+.commentsbutton{
+
+    margin-left: 9px;
+
+}
+
+
+.buttongood {
+
+    width: 80px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 30px;
+    background-color: #3DB2FF;
+    border: none;
+    text-align: center;
+
+}
+
+.buttonbad{
+
+    width: 80px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 30px;
+    background-color: #3DB2FF;
+    border: none;
+
+}
+
+.commentsbutton button:hover{
+
+    background-color: #A2D2FF;
+
+}
+
+.commentsbutton i{
+
+    color: #ffffff;
+    font-size: 17px;
+
+}
